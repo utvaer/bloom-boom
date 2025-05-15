@@ -1,3 +1,5 @@
+import { promises as fs } from "fs";
+
 type Application = {
   id: number;
   company: string;
@@ -5,13 +7,15 @@ type Application = {
 };
 
 export default async function Page() {
-  const data = await fetch("https://localhost:3000/data");
-  const apps = await data.json();
+  const file = await fs.readFile(process.cwd() + "/src/data.json", "utf8");
+  const data = JSON.parse(file);
+  console.log(data);
+
   return (
     <div>
       <h1>Overview</h1>
-      {apps.map((app: Application) => {
-        <div>{app.jobTitle}</div>;
+      {data.map((app: Application) => {
+        <h2>{app.id}</h2>;
       })}
     </div>
   );
