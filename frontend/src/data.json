@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "company": "TechCorp",
+    "jobTitle": "Frontend Developer",
+    "location": "Remote",
+    "dateApplied": "2025-04-10",
+    "source": "LinkedIn",
+    "status": "Interviewing",
+    "interviewRounds": 2,
+    "salaryRange": { "min": 80000, "max": 100000, "currency": "USD" },
+    "followUpDate": "2025-05-15",
+    "notes": "Heard back in 3 days. Interview went well.",
+    "tags": ["react", "referral"]
+  },
+  {
+    "id": "2",
+    "company": "FinStart",
+    "jobTitle": "Fullstack Engineer",
+    "location": "New York",
+    "dateApplied": "2025-04-22",
+    "source": "Company Website",
+    "status": "Rejected",
+    "interviewRounds": 0,
+    "salaryRange": null,
+    "followUpDate": null,
+    "notes": "No reply after two weeks.",
+    "tags": ["finance", "cold"]
+  },
+  {
+    "id": "3",
+    "company": "GreenAI",
+    "jobTitle": "AI Product Engineer",
+    "location": "San Francisco",
+    "dateApplied": "2025-04-28",
+    "source": "Referral",
+    "status": "Offer",
+    "interviewRounds": 4,
+    "salaryRange": { "min": 120000, "max": 140000, "currency": "USD" },
+    "followUpDate": "2025-05-20",
+    "notes": "Got an offer, deciding between options.",
+    "tags": ["ai", "dream"]
+  }
+]
